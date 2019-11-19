@@ -1,6 +1,6 @@
 # Micro AWK
 
-BioAWK for people who don't have time to waste
+BioAWK for people who don't have time to waste.
 
 ## Introduction
 
@@ -9,7 +9,7 @@ language isn't as terse as it could be. This is AWK, after all!
 This package takes normal BioAWK and shortens a few keywords (listed below).
 In all other ways, it's identical to BioAWK.
 
-Here's an example
+Here's an example:
 
 ### Classic BioAWK
 ```awk
