@@ -1,4 +1,4 @@
-# Micro AWK
+# Micro BioAWK
 
 BioAWK for people who don't have time to waste.
 
