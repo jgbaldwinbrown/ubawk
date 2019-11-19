@@ -1,3 +1,44 @@
+# Micro AWK
+
+BioAWK for people who don't have time to waste
+
+## Introduction
+
+BioAWK is a great extension to the original AWK, but its
+language isn't as terse as it could be. This is AWK, after all!
+This package takes normal BioAWK and shortens a few keywords (listed below).
+In all other ways, it's identical to BioAWK.
+
+Here's an example
+
+### Classic BioAWK
+```awk
+BEGIN{print("Hello world!")}
+```
+
+### micro-BioAWK
+```awk
+B{p("Hello world!")}
+```
+
+As you can see, the new version is much quicker to type in a one-liner.
+
+## Differences from BioAWK
+
+The only differences between this package and BioAWK are the following keyword changes:
+
+old | new
+--- | ---
+BEGIN | B
+END | E
+BEGINFILE | BF
+ENDFILE | EF
+print | p
+printf | pf
+sprintf | spf
+
+Good luck, command line junkies!
+
 ### Introduction
 
 Bioawk is an extension to [Brian Kernighan's awk][1], adding the support of
