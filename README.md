@@ -39,6 +39,10 @@ sprintf | spf
 
 Good luck, command line junkies!
 
+## Original README
+
+What follows below is the standard BioAWK README.
+
 ### Introduction
 
 Bioawk is an extension to [Brian Kernighan's awk][1], adding the support of
