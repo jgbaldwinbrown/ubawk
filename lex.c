@@ -44,8 +44,8 @@ typedef struct Keyword {
 } Keyword;
 
 Keyword keywords[] ={	/* keep sorted: binary searched */
-	{ "BEGIN",	XBEGIN,		XBEGIN },
-	{ "END",	XEND,		XEND },
+	{ "B",	XBEGIN,		XBEGIN },
+	{ "E",	XEND,		XEND },
 	{ "NF",		VARNF,		VARNF },
 	{ "and",	BIO_FAND,	BLTIN },
 	{ "atan2",	FATAN,		BLTIN },
@@ -76,8 +76,8 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "next",	NEXT,		NEXT },
 	{ "nextfile",	NEXTFILE,	NEXTFILE },
 	{ "or",		BIO_FOR,	BLTIN },
-	{ "print",	PRINT,		PRINT },
-	{ "printf",	PRINTF,		PRINTF },
+	{ "p",	PRINT,		PRINT },
+	{ "pf",	PRINTF,		PRINTF },
 	{ "qualcount",	BIO_FQUALCOUNT,	BLTIN },
 	{ "rand",	FRAND,		BLTIN },
 	{ "return",	RETURN,		RETURN },
@@ -85,7 +85,7 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "reverse",BIO_FREVERSE, BLTIN },
 	{ "sin",	FSIN,		BLTIN },
 	{ "split",	SPLIT,		SPLIT },
-	{ "sprintf",	SPRINTF,	SPRINTF },
+	{ "spf",	SPRINTF,	SPRINTF },
 	{ "sqrt",	FSQRT,		BLTIN },
 	{ "srand",	FSRAND,		BLTIN },
 	{ "sub",	SUB,		SUB },
