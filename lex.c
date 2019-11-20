@@ -69,7 +69,7 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "in",		IN,		IN },
 	{ "index",	INDEX,		INDEX },
 	{ "int",	FINT,		BLTIN },
-	{ "length",	FLENGTH,	BLTIN },
+	{ "len",	FLENGTH,	BLTIN },
 	{ "log",	FLOG,		BLTIN },
 	{ "match",	MATCHFCN,	MATCHFCN },
 	{ "meanqual",	BIO_FMEANQUAL,		BLTIN },

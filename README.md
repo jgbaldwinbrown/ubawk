@@ -36,6 +36,7 @@ ENDFILE | EF
 print | p
 printf | pf
 sprintf | spf
+length | len
 
 Good luck, command line junkies!
 
