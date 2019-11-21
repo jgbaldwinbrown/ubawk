@@ -31,8 +31,6 @@ old | new
 --- | ---
 BEGIN | B
 END | E
-BEGINFILE | BF
-ENDFILE | EF
 print | p
 printf | pf
 sprintf | spf
