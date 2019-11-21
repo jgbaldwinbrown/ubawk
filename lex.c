@@ -61,7 +61,7 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "exit",	EXIT,		EXIT },
 	{ "exp",	FEXP,		BLTIN },
 	{ "fflush",	FFLUSH,		BLTIN },
-	{ "f",	FOR,		FOR },
+	{ "fo",	FOR,		FOR },
 	{ "for",	FOR,		FOR },
 	{ "func",	FUNC,		FUNC },
 	{ "function",	FUNC,		FUNC },

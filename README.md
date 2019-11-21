@@ -35,6 +35,8 @@ print | p
 printf | pf
 sprintf | spf
 length | len
+for | fo
+while | w
 
 Good luck, command line junkies!
 
