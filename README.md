@@ -37,6 +37,7 @@ sprintf | spf
 length | len
 for | fo
 while | w
+else | e
 
 Good luck, command line junkies!
 
