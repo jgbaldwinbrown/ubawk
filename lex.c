@@ -59,7 +59,7 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "exit",	EXIT,		EXIT },
 	{ "exp",	FEXP,		BLTIN },
 	{ "fflush",	FFLUSH,		BLTIN },
-	{ "for",	FOR,		FOR },
+	{ "f",	FOR,		FOR },
 	{ "func",	FUNC,		FUNC },
 	{ "function",	FUNC,		FUNC },
 	{ "gc",	BIO_FGC,		BLTIN },
@@ -94,7 +94,7 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "tolower",	FTOLOWER,	BLTIN },
 	{ "toupper",	FTOUPPER,	BLTIN },
 	{ "trimq",	BIO_FTRIMQ,	BLTIN },
-	{ "while",	WHILE,		WHILE },
+	{ "w",	WHILE,		WHILE },
 	{ "xor",	BIO_FXOR,	BLTIN }
 };
 
