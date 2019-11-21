@@ -45,7 +45,9 @@ typedef struct Keyword {
 
 Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "B",	XBEGIN,		XBEGIN },
+	{ "BEGIN",	XBEGIN,		XBEGIN },
 	{ "E",	XEND,		XEND },
+	{ "END",	XEND,		XEND },
 	{ "NF",		VARNF,		VARNF },
 	{ "and",	BIO_FAND,	BLTIN },
 	{ "atan2",	FATAN,		BLTIN },
@@ -60,6 +62,7 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "exp",	FEXP,		BLTIN },
 	{ "fflush",	FFLUSH,		BLTIN },
 	{ "f",	FOR,		FOR },
+	{ "for",	FOR,		FOR },
 	{ "func",	FUNC,		FUNC },
 	{ "function",	FUNC,		FUNC },
 	{ "gc",	BIO_FGC,		BLTIN },
@@ -70,6 +73,7 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "index",	INDEX,		INDEX },
 	{ "int",	FINT,		BLTIN },
 	{ "len",	FLENGTH,	BLTIN },
+	{ "length",	FLENGTH,	BLTIN },
 	{ "log",	FLOG,		BLTIN },
 	{ "match",	MATCHFCN,	MATCHFCN },
 	{ "meanqual",	BIO_FMEANQUAL,		BLTIN },
@@ -77,7 +81,9 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "nextfile",	NEXTFILE,	NEXTFILE },
 	{ "or",		BIO_FOR,	BLTIN },
 	{ "p",	PRINT,		PRINT },
+	{ "print",	PRINT,		PRINT },
 	{ "pf",	PRINTF,		PRINTF },
+	{ "printf",	PRINTF,		PRINTF },
 	{ "qualcount",	BIO_FQUALCOUNT,	BLTIN },
 	{ "rand",	FRAND,		BLTIN },
 	{ "return",	RETURN,		RETURN },
@@ -86,6 +92,7 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "sin",	FSIN,		BLTIN },
 	{ "split",	SPLIT,		SPLIT },
 	{ "spf",	SPRINTF,	SPRINTF },
+	{ "sprintf",	SPRINTF,	SPRINTF },
 	{ "sqrt",	FSQRT,		BLTIN },
 	{ "srand",	FSRAND,		BLTIN },
 	{ "sub",	SUB,		SUB },
@@ -95,6 +102,7 @@ Keyword keywords[] ={	/* keep sorted: binary searched */
 	{ "toupper",	FTOUPPER,	BLTIN },
 	{ "trimq",	BIO_FTRIMQ,	BLTIN },
 	{ "w",	WHILE,		WHILE },
+	{ "while",	WHILE,		WHILE },
 	{ "xor",	BIO_FXOR,	BLTIN }
 };
 
